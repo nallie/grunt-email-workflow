@@ -1,20 +1,21 @@
 /* -------------------------------------
   DIVIDERS
 ------------------------------------- */
-
 .divider {
-  border-collapse: separate;
+    border-collapse: separate;
+    width: 15%;
+    margin: 0 auto;
+    
+    &-spacer {
+        padding: $divider-margin;
+    }
 
-  &-spacer {
-    padding: $divider-margin;
-  }
-
-  td {
-    border-top: 1px solid $divider-color;
-    line-height: 0;
-    font-size: 0;
-    height: 1px;
-    margin: 0;
-    padding: 0;
-  }
+    td {
+        border-top: 4px solid $divider-color;
+        line-height: 0;
+        font-size: 0;
+        height: 1px;
+        margin: 0;
+        padding: 0;
+    }
 }
