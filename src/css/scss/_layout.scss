@@ -71,9 +71,40 @@ body {
 /* -------------------------------------
     CUSTOM CSS
 ------------------------------------- */
+// .hero {
+//     min-height: 346px;
+//     background: center cover no-repeat;
+//     background-color: $secondary-color;
+//     padding: 0;
+// }
 .hero {
-    min-height: 346px;
-    background: center cover no-repeat;
-    background-color: $secondary-color;
-    padding: 0;
+    min-height: 100px;
+}
+
+.bg-teal {
+    background-color: $teal;
+}
+
+.bg-blue {
+    background-color: $pac-blue;
+}
+
+.bg-purp {
+    background-color: $purp;
+}
+
+.bg-smoke {
+    background-color: $smoke;
+}
+
+.font-teal {
+    color: $teal;
+}
+
+.font-blue {
+    color: $pac-blue;
+}
+
+.font-purp {
+    color: $purp;
 }

@@ -37,12 +37,12 @@
 // Primary call to action button
 .btn-primary {
     table td {
-        background-color: $primary-color;
+        background-color: $teal;
     }
 
     a {
-        background-color: $primary-color;
-        border-color: $primary-color;
+        background-color: $teal;
+        border-color: $teal;
         color: #ffffff;
     }
 }
@@ -52,12 +52,68 @@
     margin: 50px 0 40px;
     
     table td {
-        background-color: $secondary-color;
+        background-color: $pac-blue;
     }
 
     a {
-        background-color: $secondary-color;
-        border-color: $secondary-color;
-        color: $primary-color;
+        background-color: $pac-blue;
+        border-color: $pac-blue;
+        color: #ffffff;
+    }
+}
+
+.btn-teal {
+    margin: 50px 0 40px;
+    
+    table td {
+        background-color: $teal;
+    }
+
+    a {
+        background-color: $teal;
+        border-color: $teal;
+        color: #ffffff;
+    }
+}
+
+.btn-blue {
+    margin: 50px 0 40px;
+    
+    table td {
+        background-color: $pac-blue;
+    }
+
+    a {
+        background-color: $pac-blue;
+        border-color: $pac-blue;
+        color: #ffffff;
+    }
+}
+
+.btn-purp {
+    margin: 50px 0 40px;
+    
+    table td {
+        background-color: $purp;
+    }
+
+    a {
+        background-color: $purp;
+        border-color: $purp;
+        color: #ffffff;
+    }
+}
+
+.btn-smoke {
+    margin: 50px 0 40px;
+    
+    table td {
+        background-color: $smoke;
+    }
+
+    a {
+        background-color: $smoke;
+        border-color: $smoke;
+        color: #ffffff;
     }
 }

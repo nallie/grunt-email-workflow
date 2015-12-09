@@ -2,17 +2,15 @@
     TYPOGRAPHY
 ------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
 
 h1,
 h2,
 h3,
 h4,
 h5,
-span,
-p {
-    
-    // color: $font-color !important;
-    font-family: "Open Sans", sans-serif;
+span {
+    font-family: 'Oswald', sans-serif;
     line-height: 1.2;
     margin: 0;
     margin-bottom: 0;
@@ -20,23 +18,20 @@ p {
 
 h1 {
     font-size: 42px;
-    text-transform: capitalize;
-    font-weight: 800;
+    
+    // font-weight: 800;
     padding: 95px 0 0;
 }
 
 h2 {
-    font-size: 23px;
-    font-weight: 700;
+    font-size: 20px;
+    text-decoration: underline;
+    
+    // font-weight: 400;
 }
 
 h3 {
-    font-size: 25px;
-    font-weight: 600;
-    color: white;
-    padding: 0 0 30px;
-    max-width: 90%;
-    margin: 0 auto;
+    font-size: 20px;
 }
 
 h4 {
@@ -50,13 +45,17 @@ h5 {
     padding-bottom: 20px;
 }
 
+span {
+    text-transform: capitalize;
+}
+
 p,
-span,
 ul,
-ol {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 22px;
+ol,
+a {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
     font-weight: normal;
     margin: 0;
     margin-bottom: 15px;
