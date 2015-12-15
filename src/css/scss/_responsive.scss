@@ -38,6 +38,13 @@ table[class=body] {
             width: 100% !important;
         }
 
+        // footer
+        .footer {
+            td.half {
+                min-width: 100% !important;
+            }
+        }
+
         // Buttons
         // .btn table,
         // .btn a {

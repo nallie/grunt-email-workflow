@@ -58,13 +58,31 @@ body {
     clear: both;
     width: 100%;
     
-    * {
-        color: #999999;
-        font-size: 12px;
+    td {
+        vertical-align: middle;
     }
 
-    td {
-        padding: 20px 0;
+    .company-logo {
+        padding: 0 0 0 $padding;
+    }
+
+    .company-info {
+        padding: $padding;
+        padding-left: 0;
+    }
+
+    span {
+        font-size: 14px;
+        line-height: 1.1;
+        font-weight: 600;
+        color: $dark-blue !important;
+    }
+
+    p {
+        padding-top: ($padding - 25);
+        padding-bottom: ($padding - 25);
+        font-size: 12px;
+        color: white;
     }
 }
 
@@ -89,12 +107,20 @@ body {
     background-color: $pac-blue;
 }
 
+.bg-dark-blue {
+    background-color: $dark-blue;
+}
+
 .bg-purp {
     background-color: $purp;
 }
 
 .bg-smoke {
     background-color: $smoke;
+}
+
+.bg-light {
+    background-color: $light;
 }
 
 .font-teal {
@@ -105,6 +131,18 @@ body {
     color: $pac-blue;
 }
 
+.font-light-blue {
+    color: $light-blue;
+}
+
+.font-dark-blue {
+    color: $dark-blue;
+}
+
 .font-purp {
     color: $purp;
+}
+
+.font-white {
+    color: #ffffff !important;
 }
