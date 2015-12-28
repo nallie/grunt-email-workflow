@@ -90,6 +90,20 @@
     }
 }
 
+.btn-red {
+    margin: 50px 0 40px;
+    
+    table td {
+        background-color: $dark-red;
+    }
+
+    a {
+        background-color: $dark-red;
+        border-color: $dark-red;
+        color: #ffffff;
+    }
+}
+
 .btn-purp {
     margin: 50px 0 40px;
     

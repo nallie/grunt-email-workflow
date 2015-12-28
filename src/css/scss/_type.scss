@@ -47,11 +47,11 @@ span {
     line-height: 1.6;
     font-weight: 400;
     margin: 0;
-    padding-bottom: $padding;
+    padding: 0 0 $padding;
     
     li {
-        list-style-position: inside;
-        margin-left: 5px;
+        list-style-position: outside;
+        margin-left: ($padding - 10px);
     }
 }
 

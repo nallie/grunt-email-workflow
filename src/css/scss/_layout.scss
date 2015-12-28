@@ -26,7 +26,7 @@ body {
     display: block;
     margin: 0 auto;
     max-width: $width;
-    padding: 10px 0 0;
+    padding: 0;
 }
 
 /* -------------------------------------
@@ -37,6 +37,7 @@ body {
     border: 1px solid darken($grey, 5);
     border-radius: $br;
     width: 100%;
+    margin: 10px auto 0;
 }
 
 .wrapper {
@@ -75,7 +76,6 @@ body {
         font-size: 14px;
         line-height: 1.1;
         font-weight: 600;
-        color: $dark-blue !important;
     }
 
     p {
@@ -84,65 +84,4 @@ body {
         font-size: 12px;
         color: white;
     }
-}
-
-/* -------------------------------------
-    CUSTOM CSS
-------------------------------------- */
-// .hero {
-//     min-height: 346px;
-//     background: center cover no-repeat;
-//     background-color: $secondary-color;
-//     padding: 0;
-// }
-.hero {
-    min-height: 100px;
-}
-
-.bg-teal {
-    background-color: $teal;
-}
-
-.bg-blue {
-    background-color: $pac-blue;
-}
-
-.bg-dark-blue {
-    background-color: $dark-blue;
-}
-
-.bg-purp {
-    background-color: $purp;
-}
-
-.bg-smoke {
-    background-color: $smoke;
-}
-
-.bg-light {
-    background-color: $light;
-}
-
-.font-teal {
-    color: $teal;
-}
-
-.font-blue {
-    color: $pac-blue;
-}
-
-.font-light-blue {
-    color: $light-blue;
-}
-
-.font-dark-blue {
-    color: $dark-blue;
-}
-
-.font-purp {
-    color: $purp;
-}
-
-.font-white {
-    color: #ffffff !important;
 }
