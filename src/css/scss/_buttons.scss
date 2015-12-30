@@ -90,6 +90,20 @@
     }
 }
 
+.btn-light-blue {
+    margin: 50px 0 40px;
+    
+    table td {
+        background-color: $light-blue;
+    }
+
+    a {
+        background-color: $light-blue;
+        border-color: $light-blue;
+        color: #ffffff;
+    }
+}
+
 .btn-red {
     margin: 50px 0 40px;
     

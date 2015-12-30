@@ -26,8 +26,9 @@ $font-color: $smoke; // Default font color
 // Typography
 // -------
 // @import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
-$primary-font: 'Open Sans', sans-serif;
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+// $primary-font: 'Open Sans', sans-serif;
+$primary-font: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
 $secondary-font: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $body-font-family: $primary-font !default;
 $body-font-weight: 400 !default;

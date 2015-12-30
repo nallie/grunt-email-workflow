@@ -23,6 +23,10 @@
     background-color: $dark-blue;
 }
 
+.bg-light-blue {
+    background-color: $light-blue;
+}
+
 .bg-red {
     background-color: $fire-red;
 }
@@ -69,6 +73,14 @@
 
 .font-red {
     color: $fire-red;
+}
+
+.font-smoke {
+    color: $smoke;
+}
+
+.font-primary {
+    color: $primary-color;
 }
 
 .font-light-red {
